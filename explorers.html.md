@@ -1,0 +1,35 @@
+<!doctype html>
+<html>
+<head>
+  <style>
+    h1 {
+      font-family: Impact;
+      color: rgb(255, 0, 0);
+      font-weight: bold;
+      font-size: 50;
+  } 
+    h2 {
+      font-family: Impact;
+      color: rgb(150, 0, 0);
+      font-size: 22;
+  }
+  
+    a {
+      font-family: Impact;
+      color: rgb(0, 0, 255);
+      font-size: 30;
+    }
+  </style>
+  </head>
+  <body>
+    <h1>The Expedition</h1>
+    
+    <h3>As they were sailing to Antarctica their ship got stuck in the 
+    ice so they abandoned ship, and set off on foot for the rest of the 
+    Antarctic expedition.</h3>
+  </body>
+  
+</html>
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbLTEzNjA5Mzg4OTZdfQ==
+-->
