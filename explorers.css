@@ -12,19 +12,19 @@
   
   h2 {
     font-family: Arial Black;
-  	color: rgb(150, 0, 0);
+  	color: rgb(255, 48, 48);
     font-size: 40;
 	}
 	
 	h3 {
 	  font-family: Arial Black;
-  	color: rgb(75, 0, 0);
+  	color: rgba(251, 221, 221, .75);
     font-size: 22;
 	}
   
-  h4 {
-    page-break-after: always;
-  }
+
+  .page-break {height: 100vh}
+
   
 	a {
     color: rgb(255, 0, 0);
