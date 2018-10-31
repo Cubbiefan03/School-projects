@@ -20,12 +20,13 @@ h3 {
  	color: rgba(221, 221, 221, .75);
   font-size: 22;
 }
-  
+
 a {
-	color: rgb(255, 0, 0);
-	font-size: 35px;
-	font-weight: bold
+	font-family: Arial Black;
+	color: rgba(221, 221, 221, .75);
+	font-size: 18;
 }
+  
 			
 li {
 	font-size: 25px;
