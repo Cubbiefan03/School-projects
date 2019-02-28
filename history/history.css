@@ -16,9 +16,10 @@ h2 {
   font-size: 40;
   text-align: center;
 }
+
 h3 {
   font-family: Arial Black;
-     color: rgb(0, 150, 175);
+  color: rgb(0, 150, 175);
   font-size: 22;
 }
 
@@ -40,4 +41,4 @@ hr {
     padding: 4px;
 }
 
-.page-break {height: 5vh}
+.page-break {height: 10vh}
