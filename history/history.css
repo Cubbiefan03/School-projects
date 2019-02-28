@@ -12,8 +12,9 @@ h1 {
   
 h2 {
   font-family: Arial Black;
-    color: rgb(0, 217, 255);
+  color: rgb(0, 217, 255);
   font-size: 40;
+  text-align: center
 }
 h3 {
   font-family: Arial Black;
