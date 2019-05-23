@@ -47,6 +47,21 @@ body {
     padding: 4px;
   }
 
+  .button {
+    background-color: rgb(0, 255, 0);
+    border: none;
+    color: black;
+    padding: 15px 25px;
+    text-align: center;
+    font-size: 18;
+    font-family: arial black;
+    cursor: pointer;
+  }
+  
+  .button:hover {
+    background-color: rgb(0, 255, 0);
+  }
+  
   .typewriter h1 {
     animation-delay: .1s, .1s, 3;
 
