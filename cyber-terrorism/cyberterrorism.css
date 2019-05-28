@@ -42,9 +42,9 @@ body {
   }
         
   hr {
-    border: 10px rgba(100, 100, 100, 0) solid;
-    background-color: rgba(129, 129, 129, 0.877);
-    padding: 4px;
+    border: 10px rgb(0, 255, 0) solid;
+    background-color: rgba(0, 255, 0, 0);
+    padding: 5px;
   }
 
   .button {
