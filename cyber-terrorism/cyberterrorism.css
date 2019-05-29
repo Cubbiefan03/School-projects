@@ -51,9 +51,9 @@ body {
     background-color: rgb(0, 255, 0);
     border: none;
     color: black;
-    padding: 15px 25px;
+    padding: 20px 30px;
     text-align: center;
-    font-size: 18;
+    font-size: 20;
     font-family: arial black;
     cursor: pointer;
   }
@@ -97,7 +97,7 @@ body {
 
     overflow: hidden; /* Ensures the content is not revealed until the animation */
     border-right: .15em solid rgb(0, 255, 0); /* The typwriter cursor */
-    white-space: nowrap; /* Keeps the content on a single line */
+    white-space: wrap; /* Keeps the content on a single line */
     margin: 0 auto; /* Gives that scrolling effect as the typing happens */
     letter-spacing: .08em; /* Adjust as needed */
     animation:        
@@ -121,25 +121,5 @@ body {
     }
     50% { border-color: rgb(0, 255, 0) }
   }
-
-  blink {
-    animation: blinker 0.6s linear infinite;
-    color: rgb(0, 255, 0);
-   }
-  @keyframes blinker {  
-    50% { opacity: 0; }
-   }
-   .blink-one {
-     animation: blinker-one 1s linear infinite;
-   }
-   @keyframes blinker-one {  
-     0% { opacity: 0; }
-   }
-   .blink-two {
-     animation: blinker-two 1.4s linear infinite;
-   }
-   @keyframes blinker-two {  
-     100% { opacity: 0; }
-   }
 
   .page-break {height: 20vh}
