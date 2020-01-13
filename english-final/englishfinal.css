@@ -1,10 +1,10 @@
 body {
-  background-color:rgb(0,0,90);
+  background-color:rgb(95, 95, 95);
 }
-	
+
 h1 {
-	font-family: Arial Black;
-	font-size: 75;
+  font-family: Arial Black;
+  font-size: 75;
   text-decoration: underline;
   text-align: center;
   color: rgb(255, 255, 255)
@@ -46,4 +46,28 @@ hr {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
+  }
+
+/* Style the header */
+.header {
+	padding: 0px 10px;
+	background: rgb(0, 0, 95);
+	color: #f1f1f1;
+  }
+  
+  /* Page content */
+  .content {
+	padding: 0px;
+  }
+  
+  /* The sticky class is added to the header with JS when it reaches its scroll position */
+  .sticky {
+	position: fixed;
+	top: 0;
+	width: 100%
+  }
+  
+  /* Add some top padding to the page content to prevent sudden quick movement (as the header gets a new position at the top of the page (position:fixed and top:0) */
+  .sticky + .content {
+	padding-top: 25px;
   }

@@ -6,7 +6,9 @@
 </head>
 
   <body>
-	  <h1>Visiting Chicago</h1>
+	<div class="header" id="myHeader">
+		<h1>Visiting Chicago</h1>
+	  </div>
 
 	  <img width="95%" class="center" src="http://static1.squarespace.com/static/5813cddb8419c25c3b42eacd/5ba5a56815fcc0772b57ee38/5bb882dd104c7bda55ac2c3d/1538818849505/Chicago+Skyline+and+Lake+Michigan+Cloudscape+Day+to+Night.png?format=1500w">
 
@@ -22,7 +24,20 @@
 	  <h2>Watching da Bears</h2>
 	  <h2>Garrets Popcon</h2>
     
-
+	  <script>
+			window.onscroll = function() {myFunction()};
+		
+			var header = document.getElementById("myHeader");
+			var sticky = header.offsetTop;
+		
+			function myFunction() {
+			  if (window.pageYOffset > sticky) {
+				header.classList.add("sticky");
+			  } else {
+				header.classList.remove("sticky");
+			  }
+			}
+		</script>
   </body>
 
 </html>
