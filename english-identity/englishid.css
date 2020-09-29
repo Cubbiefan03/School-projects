@@ -84,12 +84,3 @@ hr {
   .sticky + .content {
 	padding-top: 25px;
 	}
-
-	div.sub, iframe {
-    width: 100px;
-    height: 50px;
-    margin: 0 auto;
-		background-color: #777;
-		align-items: center;
-
-}
